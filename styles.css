@@ -1,0 +1,488 @@
+
+/* Stile per il corpo della pagina */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e4e4e4;
+    /* background-color: #E6DFD7; */
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-weight: 200; 
+    /* overflow-x: hidden;  */
+}
+
+
+/* Stile per la navigazione */
+header {
+    text-align: right;
+    /* background-color: #4c06c6; */
+    padding-top: 30px;
+    padding-right: 30px;
+}
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 25px;
+    font-size: 2vw;
+    /* background-color: aqua; */
+}
+header a:hover{
+    color: #4c06c6;
+}
+header a:active {
+    color: plum;
+}
+
+
+/* Stile per i titoli */
+h1 {
+    padding: 30px;
+    /* font-size: 10em; */
+    font-size: 12vw;
+    margin-top: 50px;
+    font-weight: 250; 
+    /* background-color: blue; */
+}
+
+
+/* Griglia per i progetti nella sezione home */
+.griglia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 300px;
+    /* background-color: #4c06c6; */
+    margin-top: -60px;
+} 
+.progetti {
+  flex: 1;
+  min-width: 30%;
+  max-width: 35%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0px solid #E1DFDD;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.progetti img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  transition: opacity 0.3s ease; 
+}
+.progetti a {
+  /* Stile normale del link */
+  color: #000000;
+  transition: color 0.3s ease; 
+}
+.progetti:hover img {
+  opacity: 0.7; 
+}
+.progetti:hover a {
+  color: #4c06c6; 
+}
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+
+/* Stili per il contenitore dell'immagine e del testo */
+.foto{
+    width: auto;
+    height: 35vw;
+    margin-left: auto;
+    display: block;
+}
+.sottoimmagine {
+    font-size: 2vw;
+    /* background-color: aqua; */
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 37%; 
+  }
+  .sottoimmaginetesto {
+    font-size: 1.5vw;
+    /* background-color: aqua; */
+    text-align: left;
+    padding-top: 6px;
+    margin-left: 37%; 
+  }
+   
+
+    /* Stili per le scritte più piccole affianco */
+    .attestati {
+      padding-left: 30px;
+      margin-top: -15px;
+   /* background-color: #4c06c6; */
+   margin-left: 35%; 
+    }
+    .sottoliattestati {
+        font-size: 2em;
+        padding-left: 30px;
+        text-align: left;
+        padding-top: 130px;
+        /* background-color: #4c06c644; */
+
+      }
+      .anno {
+        display: inline-block; 
+        width: 120px;
+        font-size: 1vw;
+        /* background-color: #06c60c; */
+      }
+      .diploma {
+        display: inline-block; 
+        font-size: 1.5vw;
+        /* background-color: #c60606; */
+      }
+      .contenitoreabout {
+    /* background-color: aqua; */
+    margin-top: -5.6%;
+      }
+
+
+/* Cambio impostazioni griglia progetti se lo schermo si riduce*/
+@media (max-width: 1023px) {
+    .progetti {
+        min-width: 50%;
+        max-width: 50%;
+    }
+    .grid-item:nth-child(1) {
+        font-size: 20px;
+        line-height: 25px;
+    }
+.grid-item:nth-child(2) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+.grid-item:nth-child(3) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+.grid-item:nth-child(4) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+.grid-item:nth-child(5) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+    .grid-item:nth-child(6) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+    .grid-item:nth-child(7) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+    .grid-item:nth-child(8) {
+    font-size: 20px;
+     line-height: 25px;
+        }
+}
+@media (max-width: 768px) {
+    .progetti {
+        min-width: 100%;
+        max-width: 50%;
+    }
+    .grid-item:nth-child(1) {
+        font-size: 20px;
+        line-height: 25px;
+    }
+.grid-item:nth-child(2) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+.grid-item:nth-child(3) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+.grid-item:nth-child(4) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+.grid-item:nth-child(5) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+    .grid-item:nth-child(6) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+    .grid-item:nth-child(7) {
+    font-size: 20px;
+    line-height: 25px;
+    }
+    .grid-item:nth-child(8) {
+    font-size: 20px;
+     line-height: 25px;
+        }
+}
+
+
+ /* Stili per schermi più piccoli */
+ @media screen and (max-width: 600px) {
+    .work {
+      font-size: 4vw; 
+    }
+    .me {
+        font-size: 4vw; 
+      }
+      .sottoimmagine {
+        font-size: 4vw; 
+      }
+      .sottoimmaginetesto {
+        font-size: 3.5vw; 
+      }
+      .diploma {
+        font-size: 2.5vw; 
+      }
+      .anno {
+        font-size: 2vw; 
+      }
+      .descrizioneProgetto {
+        font-size: 3.5vw; 
+      }
+      .nomeProgettointerno {
+        font-size: 4vw; 
+      }
+      .chiusuragrande {
+        padding-top: 150px;
+      }
+  }
+/* Stili per schermi medi */
+  @media screen and (min-width: 601px) {
+    .work {
+      font-size: 3vw; 
+    }
+    .me {
+        font-size: 3vw; 
+      }
+      .sottoimmagine {
+        font-size: 3vw; 
+      }
+      .sottoimmaginetesto {
+        font-size: 2.5vw; 
+      }
+      .diploma {
+        font-size: 2vw; 
+      }
+      .anno {
+        font-size: 1.5vw; 
+      }
+      .descrizioneProgetto {
+        font-size: 2.5vw; 
+      }
+      .nomeProgettointerno {
+        font-size: 3vw; 
+      }
+      .chiusuragrande {
+        padding-top: 260px;
+      }
+  }
+    /* Stili per schermi più grandi */
+    @media screen and (min-width: 801px) {
+        .work {
+          font-size: 2vw;
+        }
+        .me {
+            font-size: 2vw; 
+          }
+          .sottoimmagine {
+            font-size: 2vw; 
+          }
+          .sottoimmaginetesto {
+            font-size: 1.5vw; 
+          }
+          .diploma {
+            font-size: 1.5vw; 
+          }
+          .anno {
+            font-size: 0.8vw; 
+          }
+          .descrizioneProgetto {
+            font-size: 1.5vw; 
+          }
+          .nomeProgettointerno {
+            font-size: 2vw; 
+          }
+          .chiusuragrande {
+            padding-top: 300px;
+          }
+      }
+    
+
+/* Impostazioni per le informazioni generali (titoli e categoria) */
+.nomeProgetto {
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    text-align: left;
+/* background-color: #c68606; */
+}
+.categoriaProgetto {
+    font-size: 20px;
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+/* background-color: #06c633; */
+}
+/* Stile normale del link */
+.progetti a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+/* Stile per il piè di pagina */
+.chiusuragrande {
+  margin: 0px;
+  /* padding-top: 300px; */
+  font-size: 4em;
+  text-align: center;
+  color: #000000;
+  /* background-color: #4c06c6; */
+}
+.chiusurapiccola {
+  font-size: 2em;
+  text-align: center;
+  color: #000000;
+}
+
+
+
+.icon-img {
+  height: 50px;
+  width: 50px; 
+  object-fit: cover; 
+  transition: transform 0.3s ease; /* Aggiungi una transizione di 0.3 secondi su trasformazione */
+}
+.icone a:hover .icon-img {
+  transform: scale(1.2); /* Aumenta la dimensione dell'immagine quando il mouse è sopra */
+}
+.icone {
+  text-align: center;
+  margin-top: 20px; 
+}
+.icone a {
+  margin: 0 10px; 
+  font-size: 2em;
+  color: #333;
+  text-decoration: none; 
+}
+.fine {
+/* background-color: #4c06c6; */
+height: 100px;
+}
+
+
+
+
+    /* Spostarsi di pagina */
+    #arrows{
+      z-index:99999;
+      position:fixed;
+        overflow-y:scroll;
+        overflow-x:hidden;
+      bottom: 50px;
+      left: 50%;
+    }
+    .arrowdx{
+      position: fixed;
+      margin-left: 50px;
+        bottom: 60px;
+    }
+    .arrowsx{
+      position: fixed;
+      margin-left: -50px;
+        bottom:60px;
+    }
+
+
+
+
+
+/* Impostazioni pagina progetti (testi) */
+.annoProgetto {
+  font-size: 15px;
+  padding-left: 30px;
+  padding-bottom: 1%;
+  padding-top: 30px;
+  text-align: left;
+/* background-color: #06c633; */
+}
+.nomeProgettointerno {
+  font-size: 2vw;
+  /* width: 100px; */
+  padding-bottom: 1%;
+  display: flex;
+  padding-left: 30px;
+  text-align: left;
+  display: inline-block; 
+/* background-color: #c68606; */
+}
+.descrizioneProgetto {
+  font-size: 1.5vw;
+  padding-left: 30px;
+  padding-bottom: 1%;
+  text-align: left;
+  display: inline-block; 
+/* background-color: #06c633; */
+}
+
+/* Impostazioni pagina progetti (immagini)*/
+.imgProgetto1 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  overflow-x: hidden;
+  /* background-color: #4c06c6; */
+}
+.imgContainer {
+  display: flex;
+  justify-content: space-between; 
+  margin: 0; 
+}
+.imgProgetto2 {
+  box-sizing: border-box;
+  padding: 10px;
+  overflow-x: hidden;
+  /* display: inline-block;  */
+  width: calc(100% / 2 - 3px);
+  margin: 0;
+  margin-top: 20px; 
+}
+.imgProgetto3 {
+  box-sizing: border-box;
+  padding: 10px;
+  overflow-x: hidden;
+  /* display: inline-block;  */
+  width: calc(100% / 3 - 3px);
+  margin: 0;
+  margin-top: 20px; 
+}
+
+video {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  overflow-x: hidden;
+  /* background-color: #4c06c6; */
+}
+.videoProgetto2 {
+  box-sizing: border-box;
+  padding: 10px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: calc(100% / 2 - 3px);
+  margin: 0;
+  margin-top: 20px; 
+}
