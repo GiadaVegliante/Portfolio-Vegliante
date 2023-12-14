@@ -246,9 +246,7 @@ h1 {
     .me {
         font-size: 5vw; 
       }
-      .sottoimmagine {
-        font-size: 4vw; 
-      }
+
       .chiusuragrande {
         padding-top: 150px;
       }
@@ -259,9 +257,6 @@ h1 {
       font-size: 3vw; 
     }
     .me {
-        font-size: 3vw; 
-      }
-      .sottoimmagine {
         font-size: 3vw; 
       }
       .chiusuragrande {
@@ -275,9 +270,6 @@ h1 {
         }
         .me {
             font-size: 2vw; 
-          }
-          .sottoimmagine {
-            font-size: 30px; 
           }
           .chiusuragrande {
             padding-top: 300px;
