@@ -38,7 +38,7 @@ header a:active {
 h1 {
     padding: 30px;
     /* font-size: 10em; */
-    font-size: 12vw;
+    font-size: 9vw;
     margin-top: 50px;
     font-weight: 250; 
     /* background-color: blue; */
@@ -242,13 +242,13 @@ h1 {
         font-size: 3.5vw; 
       }
       .diploma {
-        font-size: 2.5vw; 
+        font-size: 3.5vw; 
       }
       .anno {
-        font-size: 2vw; 
+        font-size: 3vw; 
       }
       .descrizioneProgetto {
-        font-size: 3.5vw; 
+        font-size: 4vw; 
       }
       .nomeProgettointerno {
         font-size: 4vw; 
@@ -275,7 +275,7 @@ h1 {
         font-size: 2vw; 
       }
       .anno {
-        font-size: 1.5vw; 
+        font-size: 2vw; 
       }
       .descrizioneProgetto {
         font-size: 2.5vw; 
@@ -305,10 +305,10 @@ h1 {
             font-size: 1.5vw; 
           }
           .anno {
-            font-size: 0.8vw; 
+            font-size: 1vw; 
           }
           .descrizioneProgetto {
-            font-size: 1.5vw; 
+            font-size: 2vw; 
           }
           .nomeProgettointerno {
             font-size: 2vw; 
@@ -420,7 +420,6 @@ height: 100px;
 /* background-color: #06c633; */
 }
 .nomeProgettointerno {
-  font-size: 2vw;
   /* width: 100px; */
   padding-bottom: 1%;
   display: flex;
@@ -430,7 +429,6 @@ height: 100px;
 /* background-color: #c68606; */
 }
 .descrizioneProgetto {
-  font-size: 1.5vw;
   padding-left: 30px;
   padding-bottom: 1%;
   text-align: left;
@@ -441,8 +439,9 @@ height: 100px;
 /* Impostazioni pagina progetti (immagini)*/
 .imgProgetto1 {
   width: 100%;
+  align-items: center;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 40px;
   overflow-x: hidden;
   /* background-color: #4c06c6; */
 }
