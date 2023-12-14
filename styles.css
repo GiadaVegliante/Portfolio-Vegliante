@@ -36,7 +36,8 @@ header a:active {
 
 /* Stile per i titoli */
 h1 {
-    padding: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
     /* font-size: 10em; */
     font-size: 9vw;
     margin-top: 50px;
@@ -101,21 +102,20 @@ h1 {
     display: block;
 }
 .sottoimmagine {
-    font-size: 2vw;
+    font-size: 30px;
     /* background-color: aqua; */
     text-align: left;
     padding-top: 10px;
     margin-left: 37%; 
   }
   .sottoimmaginetesto {
-    font-size: 1.5vw;
+    font-size: 20px;
     /* background-color: aqua; */
     text-align: left;
     padding-top: 6px;
     margin-left: 37%; 
   }
    
-
     /* Stili per le scritte più piccole affianco */
     .attestati {
       padding-left: 30px;
@@ -127,19 +127,27 @@ h1 {
         font-size: 2em;
         padding-left: 30px;
         text-align: left;
-        padding-top: 130px;
+        padding-top: 20px;
+        /* background-color: #4c06c644; */
+      }
+      .sottoliattestati2 {
+        font-size: 2em;
+        padding-left: 30px;
+        text-align: left;
+        padding-top: 80px;
         /* background-color: #4c06c644; */
 
       }
       .anno {
         display: inline-block; 
-        width: 120px;
-        font-size: 1vw;
+        font-size: 15px;
+        width: 140px;
+        font-size: 15px;
         /* background-color: #06c60c; */
       }
       .diploma {
         display: inline-block; 
-        font-size: 1.5vw;
+        font-size: 20px;
         /* background-color: #c60606; */
       }
       .contenitoreabout {
@@ -227,30 +235,18 @@ h1 {
 }
 
 
+
+
+
  /* Stili per schermi più piccoli */
  @media screen and (max-width: 600px) {
     .work {
-      font-size: 4vw; 
+      font-size: 5vw; 
     }
     .me {
-        font-size: 4vw; 
+        font-size: 5vw; 
       }
       .sottoimmagine {
-        font-size: 4vw; 
-      }
-      .sottoimmaginetesto {
-        font-size: 3.5vw; 
-      }
-      .diploma {
-        font-size: 3.5vw; 
-      }
-      .anno {
-        font-size: 3vw; 
-      }
-      .descrizioneProgetto {
-        font-size: 4vw; 
-      }
-      .nomeProgettointerno {
         font-size: 4vw; 
       }
       .chiusuragrande {
@@ -268,21 +264,6 @@ h1 {
       .sottoimmagine {
         font-size: 3vw; 
       }
-      .sottoimmaginetesto {
-        font-size: 2.5vw; 
-      }
-      .diploma {
-        font-size: 2vw; 
-      }
-      .anno {
-        font-size: 2vw; 
-      }
-      .descrizioneProgetto {
-        font-size: 2.5vw; 
-      }
-      .nomeProgettointerno {
-        font-size: 3vw; 
-      }
       .chiusuragrande {
         padding-top: 260px;
       }
@@ -296,22 +277,7 @@ h1 {
             font-size: 2vw; 
           }
           .sottoimmagine {
-            font-size: 2vw; 
-          }
-          .sottoimmaginetesto {
-            font-size: 1.5vw; 
-          }
-          .diploma {
-            font-size: 1.5vw; 
-          }
-          .anno {
-            font-size: 1vw; 
-          }
-          .descrizioneProgetto {
-            font-size: 2vw; 
-          }
-          .nomeProgettointerno {
-            font-size: 2vw; 
+            font-size: 30px; 
           }
           .chiusuragrande {
             padding-top: 300px;
@@ -420,6 +386,7 @@ height: 100px;
 /* background-color: #06c633; */
 }
 .nomeProgettointerno {
+  font-size: 30px;
   /* width: 100px; */
   padding-bottom: 1%;
   display: flex;
@@ -429,6 +396,7 @@ height: 100px;
 /* background-color: #c68606; */
 }
 .descrizioneProgetto {
+  font-size: 20px;
   padding-left: 30px;
   padding-bottom: 1%;
   text-align: left;
