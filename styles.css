@@ -445,3 +445,15 @@ video {
   margin: 0;
   margin-top: 20px; 
 }
+
+
+/* Dowload */
+a {
+  color: #333; /* Colore scuro elegante */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Aggiunge sottolineatura solo al passaggio del mouse */
+  color: #555; /* Leggermente più chiaro */
+}
